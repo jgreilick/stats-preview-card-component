@@ -1,0 +1,16 @@
+:root {
+    --color-background: hsl(233, 47%, 7%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--color-background);
+    display: grid;
+    min-height: 100vh;
+    min-width: 100vw;
+    place-content: center;
+}
