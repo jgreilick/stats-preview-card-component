@@ -1,38 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS-->
   <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
   <div class="container">
+
     <main>
-      Get insights that help your business grow.
+      <div class="stats-card">
+        <div class="stats-header">
+          <div class="stats-header-overlay"></div>
+        </div>
+
+        <div class="stats-content">
+          <h1>
+            Get <span class="text-violet">insights</span> that help your business grow.
+          </h1>
+
+          <p>
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <h1>10k+</h1>
+              <span>companies</span>
+            </div>
   
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.
+            <div class="stat">
+              <h1>314</h1>
+              <span>templates</span>
+            </div>
   
-      10k+ companies
-      314 templates
-      12m+ queries
+            <div class="stat">
+              <h1>12m+</h1>
+              <span>queries</span>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
     </main>
     
-  
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">James Greilick</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">James Greilick</a>.
+      </div>
+    </footer>
+
   </div>
 </body>
 </html>
