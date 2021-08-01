@@ -50,7 +50,7 @@ body {
 }
 
 .stats-card p {
-    color: var(--color-transparent-white-60);
+    color: var(--color-transparent-white-75);
     line-height: 1.5rem;
     margin-bottom: 2.5rem;
     padding-left: 1.8rem;
@@ -59,24 +59,15 @@ body {
 
 .stats-header {
     background-image: url("./images/image-header-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color: var(--color-soft-violet);
+    background-blend-mode: multiply;
+    background-size: cover;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     margin-bottom: 2.4rem;
     min-height: 230px;
     min-width: 100%;
-    position: relative;
-}
-
-.stats-header-overlay {
-    background-color: var(--color-transparent-soft-violet);
-    border-radius: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    opacity: 1;
 }
 
 .stat {
@@ -98,23 +89,6 @@ body {
 
 .text-violet {
     color: var(--color-soft-violet);
-}
-
-/* Attribution rules */
-
-.attribution  { 
-    font-size: 11px; 
-    color: var(--color-transparent-white-75);
-    margin-top: 1rem;
-    text-align: center; 
-}
-    
-.attribution a { 
-    color: var(--color-soft-violet);
-}
-
-.attribution a:hover {
-    color: var(--color-softer-violet);
 }
 
 /* Media queries */
